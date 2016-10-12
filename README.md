@@ -195,6 +195,8 @@ TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.MyText
 ```
 ![mytextview.png](mytextview.png)
 
+
+
 #### boolean：布尔值.
 
 > * 定义
@@ -208,8 +210,14 @@ TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.MyText
     </declare-styleable>
 ```
 > * 获取
-
+```
+//获取是还是显示boolean值boolean isDisplay = typedArray.getBoolean(R.styleable.MyImageView_my_display, true);
+```
 > * 使用
+```
+<com.liu.myviewformatdemo.view.MyImageView    android:layout_marginTop="5dp"    android:layout_width="match_parent"    android:layout_height="50dp"    android:scaleType="centerCrop"    android:src="@mipmap/img_home_banner1"    app:my_display="true"    />
+```
+
 
 
 #### integer：整型值
@@ -372,3 +380,12 @@ TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.MyText
 
 </declare-styleable>
 ```
+
+
+个人主页：
+
+<https://ln0491.github.io/>
+<http://ln0491.coding.me/>
+博客:
+<http://blog.csdn.net/ko0491>
+<http://www.cnblogs.com/liunanjava/>
