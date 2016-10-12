@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyTextView">
+<!--
+字符串
+-->
+        <attr name="my_textname" format="string"/>
+        <!--
+        尺寸值
+        -->
+        <attr name="my_textsize" format="dimension"/>
+        <!--颜色-->
+        <attr name="my_textcolor" format="color"/>
+        <!--引用某个资源的ID-->
+        <attr name="my_background" format="reference"/>
+
+    </declare-styleable>
+
+
+
+    <declare-styleable name="MyImageView">
+
+        <!--Boolean 是否显示-->
+        <attr name="my_display" format="boolean"/>
+
+
+    </declare-styleable>
+
+
+   <!-- <declare-styleable name="RotateDrawable">
+        <attr name = "visible" />
+        <attr name = "fromDegrees" format = "float" />
+        <attr name = "toDegrees" format = "float" />
+        <attr name = "pivotX" format = "fraction" />
+        <attr name = "pivotY" format = "fraction" />
+        <attr name = "drawable" />
+    </declare-styleable>-->
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:fillViewport="false"
+
+    tools:context="com.liu.myviewformatdemo.MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.liu.myviewformatdemo.view.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:my_textname="无可奈何花落去枯萎地"
+            app:my_textsize="10sp"
+            app:my_textcolor="#f00"
+            app:my_background="@drawable/bg_shap"
+            />
+
+
+        <com.liu.myviewformatdemo.view.MyImageView
+
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/img_home_banner1"
+            app:my_display="true"
+            />
+
+        <com.liu.myviewformatdemo.view.MyImageView
+            android:id="@+id/myIv"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"
+            app:my_display="true"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
